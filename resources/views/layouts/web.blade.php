@@ -24,7 +24,7 @@
     </main>
     <footer class="py-4 text-center">
         @auth
-            <a href="{{ url('_dashboard') }}" class="text-sm text-gray-700 underline">
+            <a href="{{ url('dashboard') }}" class="text-sm text-gray-700 underline">
                 Dashboard
             </a>
         @else
